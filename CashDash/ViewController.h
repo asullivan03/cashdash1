@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSCalendar *gregorianCalendar;
+@property (strong, nonatomic) NSTimer *countDownTimer;
+@property (strong, nonatomic) NSDateFormatter *countDownDateFormatter;
+@property (strong, nonatomic) NSDate *countDownEndDate;
+@property (strong, nonatomic) IBOutlet UILabel *lblCountDown;
 
 @end
 

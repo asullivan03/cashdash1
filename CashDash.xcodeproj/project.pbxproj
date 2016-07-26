@@ -15,6 +15,10 @@
 		F7BA76041D441F0E00B55F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BA76021D441F0E00B55F4C /* LaunchScreen.storyboard */; };
 		F7BA760F1D441F0E00B55F4C /* CashDashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA760E1D441F0E00B55F4C /* CashDashTests.m */; };
 		F7BA761A1D441F0E00B55F4C /* CashDashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA76191D441F0E00B55F4C /* CashDashUITests.m */; };
+		F7C7ADF21D46D8D600D10D83 /* Bariol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7C7ADF11D46D8D600D10D83 /* Bariol.ttf */; };
+		F7C7ADF61D46D9A100D10D83 /* Ground Transportation-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C7ADF51D46D9A100D10D83 /* Ground Transportation-100.png */; };
+		F7C7ADF81D46DB0F00D10D83 /* iPhone-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C7ADF71D46DB0F00D10D83 /* iPhone-100.png */; };
+		F7C7ADFA1D46DB7E00D10D83 /* Add Tag-100.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C7ADF91D46DB7E00D10D83 /* Add Tag-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F7BA76151D441F0E00B55F4C /* CashDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BA76191D441F0E00B55F4C /* CashDashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashDashUITests.m; sourceTree = "<group>"; };
 		F7BA761B1D441F0E00B55F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C7ADF11D46D8D600D10D83 /* Bariol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bariol.ttf; sourceTree = "<group>"; };
+		F7C7ADF51D46D9A100D10D83 /* Ground Transportation-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ground Transportation-100.png"; sourceTree = "<group>"; };
+		F7C7ADF71D46DB0F00D10D83 /* iPhone-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-100.png"; sourceTree = "<group>"; };
+		F7C7ADF91D46DB7E00D10D83 /* Add Tag-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Tag-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		F7BA75F31D441F0D00B55F4C /* CashDash */ = {
 			isa = PBXGroup;
 			children = (
+				F7C7ADF91D46DB7E00D10D83 /* Add Tag-100.png */,
+				F7C7ADF71D46DB0F00D10D83 /* iPhone-100.png */,
+				F7C7ADF51D46D9A100D10D83 /* Ground Transportation-100.png */,
+				F7C7ADF11D46D8D600D10D83 /* Bariol.ttf */,
 				F7BA75F71D441F0D00B55F4C /* AppDelegate.h */,
 				F7BA75F81D441F0D00B55F4C /* AppDelegate.m */,
 				F7BA75FA1D441F0D00B55F4C /* ViewController.h */,
@@ -243,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C7ADF81D46DB0F00D10D83 /* iPhone-100.png in Resources */,
 				F7BA76041D441F0E00B55F4C /* LaunchScreen.storyboard in Resources */,
 				F7BA76011D441F0E00B55F4C /* Assets.xcassets in Resources */,
 				F7BA75FF1D441F0D00B55F4C /* Main.storyboard in Resources */,
+				F7C7ADF21D46D8D600D10D83 /* Bariol.ttf in Resources */,
+				F7C7ADF61D46D9A100D10D83 /* Ground Transportation-100.png in Resources */,
+				F7C7ADFA1D46DB7E00D10D83 /* Add Tag-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +514,7 @@
 				F7BA76201D441F0E00B55F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7BA76211D441F0E00B55F4C /* Build configuration list for PBXNativeTarget "CashDashTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				F7BA76231D441F0E00B55F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7BA76241D441F0E00B55F4C /* Build configuration list for PBXNativeTarget "CashDashUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				F7BA76261D441F0E00B55F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

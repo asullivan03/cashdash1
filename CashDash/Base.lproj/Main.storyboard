@@ -1,25 +1,137 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Bariol.ttf">
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+            <string>Bariol-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="ZFf-mO-jIy"/>
+                        <viewControllerLayoutGuide type="bottom" id="bNB-5I-gAv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yB6-5D-4tF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="CASH DASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8Z-kb-hNq">
+                                        <rect key="frame" x="31" y="61" width="269" height="45"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="38"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7n-Bx-VJD">
+                                        <rect key="frame" x="73" y="456" width="184" height="42"/>
+                                        <color key="backgroundColor" red="0.35955938957176159" green="0.86378574371337891" blue="0.53778849994693156" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="22"/>
+                                        <state key="normal" title="Join this Dash!">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Location: East Orlando" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vyw-Sc-D5p">
+                                        <rect key="frame" x="73" y="499" width="184" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="$ 1450" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ae3-hZ-Gkm">
+                                        <rect key="frame" x="31" y="241" width="269" height="61"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="59"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Prize Pool" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viW-0S-OY9">
+                                        <rect key="frame" x="73" y="193" width="184" height="40"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dashers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqY-ds-obi">
+                                        <rect key="frame" x="73" y="324" width="184" height="40"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="350" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hy8-MT-Wov">
+                                        <rect key="frame" x="31" y="372" width="269" height="61"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="59"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="23D 5H 45M 45S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edn-iW-d3l">
+                                        <rect key="frame" x="31" y="109" width="269" height="54"/>
+                                        <fontDescription key="fontDescription" name="Bariol-Regular" family="Bariol" pointSize="35"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.43499504224983032" green="0.47610288478793722" blue="0.99927765130996704" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="oqY-ds-obi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ae3-hZ-Gkm" secondAttribute="bottom" constant="22" id="0OQ-5S-cWf"/>
+                                    <constraint firstItem="h8Z-kb-hNq" firstAttribute="top" relation="lessThanOrEqual" secondItem="yB6-5D-4tF" secondAttribute="top" constant="61" id="5mN-FD-A0H"/>
+                                    <constraint firstAttribute="trailing" secondItem="U7n-Bx-VJD" secondAttribute="trailing" constant="63" id="7d3-Gk-esw"/>
+                                    <constraint firstItem="ae3-hZ-Gkm" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="31" id="AvB-nD-c88"/>
+                                    <constraint firstItem="oqY-ds-obi" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="73" id="BN7-ba-N3g"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vyw-Sc-D5p" secondAttribute="trailing" constant="63" id="DTo-JT-JIX"/>
+                                    <constraint firstItem="hy8-MT-Wov" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="31" id="DuM-tg-0hK"/>
+                                    <constraint firstItem="h8Z-kb-hNq" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="31" id="Flh-9I-PDD"/>
+                                    <constraint firstItem="viW-0S-OY9" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="73" id="G2f-Fu-67z"/>
+                                    <constraint firstItem="Vyw-Sc-D5p" firstAttribute="top" secondItem="U7n-Bx-VJD" secondAttribute="bottom" constant="1" id="JnK-ZA-z4b"/>
+                                    <constraint firstItem="U7n-Bx-VJD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hy8-MT-Wov" secondAttribute="bottom" constant="23" id="QBf-fC-tL9"/>
+                                    <constraint firstItem="hy8-MT-Wov" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oqY-ds-obi" secondAttribute="bottom" constant="8" id="S0Y-HH-svl"/>
+                                    <constraint firstAttribute="trailing" secondItem="hy8-MT-Wov" secondAttribute="trailing" constant="20" id="Vc8-6U-NHx"/>
+                                    <constraint firstItem="edn-iW-d3l" firstAttribute="top" secondItem="h8Z-kb-hNq" secondAttribute="bottom" constant="3" id="Wh4-W6-Oh4"/>
+                                    <constraint firstItem="ae3-hZ-Gkm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="viW-0S-OY9" secondAttribute="bottom" constant="8" id="YUB-DZ-eCv"/>
+                                    <constraint firstAttribute="trailing" secondItem="h8Z-kb-hNq" secondAttribute="trailing" constant="20" id="fVm-wB-YVK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ae3-hZ-Gkm" secondAttribute="trailing" constant="20" id="g13-VO-cKs"/>
+                                    <constraint firstAttribute="trailing" secondItem="edn-iW-d3l" secondAttribute="trailing" constant="20" id="jB3-Gk-2td"/>
+                                    <constraint firstAttribute="trailing" secondItem="oqY-ds-obi" secondAttribute="trailing" constant="63" id="nIy-ig-tNc"/>
+                                    <constraint firstAttribute="trailing" secondItem="viW-0S-OY9" secondAttribute="trailing" constant="63" id="q7z-jG-ysw"/>
+                                    <constraint firstItem="edn-iW-d3l" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="31" id="vJY-z4-qp7"/>
+                                    <constraint firstItem="U7n-Bx-VJD" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="73" id="wPK-Ee-ogl"/>
+                                    <constraint firstItem="Vyw-Sc-D5p" firstAttribute="leading" secondItem="yB6-5D-4tF" secondAttribute="leading" constant="73" id="yUA-Yo-8Oz"/>
+                                    <constraint firstItem="viW-0S-OY9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="edn-iW-d3l" secondAttribute="bottom" constant="30" id="yqq-yb-7Zy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yB6-5D-4tF" secondAttribute="trailing" constant="-20" id="N3v-xV-fcc"/>
+                            <constraint firstItem="yB6-5D-4tF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Oeg-rc-Iqb"/>
+                            <constraint firstItem="yB6-5D-4tF" firstAttribute="top" secondItem="ZFf-mO-jIy" secondAttribute="bottom" constant="-20" id="a2Y-iR-ncP"/>
+                            <constraint firstItem="bNB-5I-gAv" firstAttribute="top" secondItem="yB6-5D-4tF" secondAttribute="bottom" id="dow-is-XBh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblCountDown" destination="edn-iW-d3l" id="e3a-Ru-wCZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="149" y="301"/>
         </scene>
     </scenes>
 </document>
